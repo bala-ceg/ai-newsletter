@@ -1,0 +1,23 @@
+{
+  "title": "LangGraph Agent Python",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "query": {
+      "title": "Query",
+      "type": "string",
+      "description": "Query for the agent.",
+      "editor": "textfield",
+      "prefill": "I want to know everything about AI agents – current news, AI agentic platforms and frameworks, and companies in this field.",
+      "default": "I want to know everything about AI agents – current news, AI agentic platforms and frameworks, and companies in this field"
+    },
+    "debug": {
+      "title": "Debug",
+      "type": "boolean",
+      "description": "If enabled, the Actor will run in debug mode and produce more output.",
+      "editor": "checkbox",
+      "default": false
+    }
+  },
+  "required": ["query"]
+}
