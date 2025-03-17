@@ -4,7 +4,7 @@ from tavily import TavilyClient
 from langchain_openai import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 from src.prompts import NEWSLETTER_TEMPLATE, REFINEMENT_TEMPLATE, ENTERTAINMENT_TEMPLATE
-
+import os
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 OPENAI_API_BASE = os.getenv("OPENAI_API_BASE", "https://api.openai.com/v1")
