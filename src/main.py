@@ -4,6 +4,7 @@ from src.tools import search_news, extract_news_summary
 from src.prompts import NEWSLETTER_TEMPLATE, REFINEMENT_TEMPLATE, ENTERTAINMENT_TEMPLATE
 from src.models import Newsletter
 from langchain_openai import ChatOpenAI
+import os
 
 #  Initialize OpenAI LLM
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
